@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head lang= "fr">
+        <meta charset = "UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" differ></script>
+        <script src="app.js" differ></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container container">
+                <input type="checkbox" name="" id="">
+                <div class="hamburger-lines">
+                    <span class="line-lines1"></span>
+                    <span class="line-lines2"></span>
+                    <span class="line-lines3"></span>
+                </div>
+                <ul class="menu-items">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">A propos</a></li>
+                    <li><a href="#food">Catégories</a></li>
+                    <li><a href="#food-menu">Menu</a></li>
+                    <li><a href="#testimonials">Témoignages</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <h1 class="logo">Le Baratie</h1>
+            </div>
+        </nav>
+        <section class="showcase-area" id="showcase">
+            <div class="showcase-container">
+                <h1 class="main-title" id="home">Manger sainement</h1>
+                <p>Manger sainement est bon pour la santé</p>
+                <a href="#food-menu" class="btn btn-primary">Menu</a>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-wrapper container">
+                <div class="about-text">
+                    <p class="small">A Propos De Nous</p>
+                    <h2>Nous cuisinons de la nourriture saine depuis plus de 25 ans</h2>
+                    <p>À Le Baratie, nous croyons fermement que la nourriture est la clé d'une vie saine et équilibrée. Notre mission est de vous inspirer à adopter un mode de vie plus sain en vous fournissant des recettes délicieuses et faciles à préparer, ainsi que des conseils pratiques pour transformer votre cuisine en un havre de bien-être.</p>
+                </div>
+                <div class="about-img">
+                    <img src="restaurant img\pexels-elevate-1267320.jpg"/>
+                </div>
+            </div>
+        </section>
+        <section id="food">
+            <h2>Catégories d'Aliments</h2>
+            <div class="food-container container">
+                <div class="food-type fruits">
+                    <div class="img-container">
+                        <img src="restaurant img\pexels-suzyhazelwood-1120581.jpg" alt="error"/>
+                        <div class="img-content">
+                            <h3>Fruits</h3>
+                            <a href="https://fr.wikipedia.org/wiki/Fruit_(alimentation_humaine)" class="btn btn-primary" target="blank">En savoir plus...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-type vegetable">
+                    <div class="img-container">
+                        <img src="restaurant img\pexels-kristina-snowasp-81019562-9986235.jpg" alt="error"/>
+                        <div class="img-content">
+                            <h3>Légumes</h3>
+                            <a href="https://fr.wikipedia.org/wiki/L%C3%A9gume" class="btn btn-primary" target="blank">En savoir plus...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-type grain">
+                    <div class="img-container">
+                        <img src="restaurant img\pexels-42north-1296262.jpg" alt="error"/>
+                        <div class="img-content">
+                            <h3>Céréale</h3>
+                            <a href="https://fr.wikipedia.org/wiki/C%C3%A9r%C3%A9ale" class="btn btn-primary" target="blank">En savoir plus...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="food-menu">
+            <h2 class="food-menu-heading">Menu</h2>
+            <div class="food-menu-container container">
+                <div class="food-menu-item">
+                    <div class="food-img">
+                        <img src="restaurant img\pexels-valeriya-1833349.jpg" alt=""/>
+                    </div>
+                    <div class="food-description">
+                        <h2 class="food-title">Ichimiso</h2>
+                        <p>Délicieuses bouchées de riz vinaigré garnies de saumon frais, d'avocat crémeux et de concombre croquant, enroulées dans de fins morceaux d'algue nori.</p>
+                        <p class="food-price">Prix: 14.65 Euros</p>
+                    </div>
+                </div>
+                <div class="food-menu-item">
+                    <div class="food-img">
+                        <img src="restaurant img\pexels-aadil-hayat-bhat-912963690-19910562.jpg" alt=""/>
+                    </div>
+                    <div class="food-description">
+                        <h2 class="food-title">Dakasoto</h2>
+                        <p>Mélange savoureux réunis dans un bol pour une expérience culinaire délicieuse. Parfait pour satisfaire votre faim avec une touche de réconfort à chaque bouchée.</p>
+                        <p class="food-price">Prix: 21,49 Euros </p>
+                    </div>
+                </div>
+                <div class="food-menu-item">
+                    <div class="food-img">
+                        <img src="restaurant img\pexels-naomi-fotografia-834948155-19885469.jpg" alt=""/>
+                    </div>
+                    <div class="food-description">
+                        <h2 class="food-title">Porkirie</h2>
+                        <p>Tendre et savoureux mariné dans une sauce sucrée et épicée à base de miel, de moutarde et de sauce soja.</p>
+                        <p class="food-price">Prix: 15.99 Euros</p>
+                    </div>
+                </div>
+                <div class="food-menu-item">
+                    <div class="food-img">
+                        <img src="restaurant img\pexels-unkdevil-19910256.jpg" alt=""/>
+                    </div>
+                    <div class="food-description">
+                        <h2 class="food-title">Soeuffle</h2>
+                        <p>Léger et aérien, ce plat mélangeant des œufs avec du fromage finement râpé, cuit au four pour donner cette texture dorée</p>
+                        <p class="food-price">Prix: 20,45 Euros </p>
+                    </div>
+                </div>
+                <div class="food-menu-item">
+                    <div class="food-img">
+                        <img src="restaurant img\pexels-valeriya-842571.jpg" alt=""/>
+                    </div>
+                    <div class="food-description">
+                        <h2 class="food-title">Kamsato</h2>
+                        <p>Gyozas accompagnés d'une garniture de légumes sautés à la sauce soja, d'émincés de champignons, le tout rehaussé d'une touche de gingembre pour une explosion de saveurs authentiques.</p>
+                        <p class="food-price">Prix: 33,95Euros </p>
+                    </div>
+                </div>
+                <div class="food-menu-item">
+                    <div class="food-img">
+                        <img src="restaurant img\pexels-pixabay-262978.jpg" alt=""/>
+                    </div>
+                    <div class="food-description">
+                        <h2 class="food-title">Plancha Malta</h2>
+                        <p>Ce plat croustillant et doré, trône fièrement une généreuse portion de saumon fumé avec soin pour révéler ses arômes les plus délicats. Accompagné d'une sélection raffinée d'accompagnements, ce plat offre une symphonie de saveurs et de textures.</p>
+                        <p class="food-price">Prix: 22,55 Euros</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2 class="testimonial-title">Témoignages De Nos Clients</h2>
+            <div class="testimonial-container container">
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-photo">
+                            <img src="restaurant img\pexels-mkvisuals-2884842.jpg"/>
+                            <p class="customer-name">Emma Martin</p>
+                        </div>
+                    </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                    <p class="testimonial-text">
+                        J'ai été complètement émerveillée par l'expérience gastronomique que j'ai vécue chez Le Baratie ! Le service était impeccable et le personnel était incroyablement attentif à nos besoins. Les plats étaient non seulement magnifiquement présentés, mais aussi délicieux à chaque bouchée. Je recommande vivement ce restaurant à quiconque cherche une expérience culinaire inoubliable.
+                    </p>
+                </div>
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-photo">
+                        <img src="restaurant img\pexels-annushka-ahuja-8114349.jpg"/>
+                        <p class="customer-name">Lucas Dubois</p>
+                        </div>
+                    </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                    <p class="testimonial-text">
+                        J'ai récemment dîné chez Le Baratie avec des amis et je dois dire que c'était une expérience fantastique du début à la fin. L'ambiance du restaurant était chaleureuse et accueillante, et le décor était à la fois élégant et confortable. Chaque plat que nous avons commandé était un chef-d'œuvre culinaire, plein de saveurs exquises et de textures bien équilibrées. Sans aucun doute l'un des meilleurs restaurants de la ville !
+                    </p>
+                </div>
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-photo">
+                        <img src="restaurant img\pexels-jozef-feher-356581-5853297.jpg"/>
+                        <p class="customer-name">Sofia Lopez</p>
+                        </div>
+                    </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                    <p class="testimonial-text">
+                        Je suis tombée amoureuse de Le Baratie dès ma première visite ! La cuisine est divine, avec des plats qui semblent tout droit sortis d'un livre de recettes haut de gamme. Mais ce qui m'a vraiment impressionnée, c'est l'attention aux détails et le service exceptionnel. Chaque membre du personnel était souriant et serviable, rendant notre expérience encore plus mémorable. Je reviendrai certainement pour plus de délices gastronomiques !
+                    </p>
+                </div>
+                <div class="testimonial-box">
+                    <div class="customer-detail">
+                        <div class="customer-photo">
+                            <img src="restaurant img\pexels-jack-winbow-460463-1559486.jpg"/>
+                            <p class="customer-name">Liam Patel</p>
+                        </div>
+                    </div>
+                <div class="star-rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                    <p class="testimonial-text">
+                        Mon dîner chez Le Baratie a été un véritable festin pour les sens ! Chaque plat était une œuvre d'art culinaire, avec des combinaisons de saveurs innovantes et des présentations élégantes. De plus, le personnel était extrêmement courtois et compétent, offrant des recommandations de vin parfaitement assorties à nos plats. Si vous cherchez à vous faire plaisir avec une expérience gastronomique exceptionnelle, ne cherchez pas plus loin que ce restaurant remarquable.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="contact-container container">
+                <div class="contact-img">
+                    <img src="restaurant img\pexels-fox-58267-750843.jpg"/>
+                </div>
+                <div class="form-container">
+                    <h2>Nous contacter</h2>
+                    <input type="text" placeholder="Votre Nom"/>
+                    <input type="email" placeholder="Votre E-mail"/>
+                    <textarea cols="30" rows="6" placeholder="Ecrivez votre commentaire"></textarea>
+                    <a href="#" class="btn btn-primary">Envoyer</a>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <h2>Restaurant & Copy; all rights reserved (Faux site)</h2>
+        </footer>
+    </body>
+</html>
